@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand');
+
+.App {
+  text-align: center;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Quicksand, Geneva, Tahoma, sans-serif;
+}
+
+textarea {
+  max-width: 700px;
+  padding: 10px;
+}
+
+@media (max-width: 480px) {
+  textarea {
+    max-width: 300px;
+  }
+}
+
+h2, h3{
+  max-width: 80%;
+}
+
+h2 {
+  font-weight: 600;
+}
+
+h3 {
+  font-weight: 500;
+}
+
+h3 > span {
+  font-weight: 800;
+  color:rgb(48, 87, 118);
+  font-size: 1.2em;
+}
+
+#submitNPS {
+  background-color: rgb(89,144,190); 
+  border: none; border-radius: 25px; 
+  color: #fbf7f7;  font-size: 20px; 
+  font-weight: bold; 
+  margin-top: 30px;
+  padding: 10px 25px; 
+  text-align: center; 
+  cursor: pointer;
+  max-width: 110px;
+}
+#submitNPS:disabled {
+ background-color: #999;
+ color: #555;
+ cursor: not-allowed;
+}
+
+img {
+  margin: 20px;
+}
